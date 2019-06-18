@@ -56,3 +56,13 @@ Post Process: CodeAnalyst zeigt die Verteilung von Stichproben ohne Debuginforma
 Die Laufzeitdaten werden interpretiert und nicht einfach als Rohdaten angezeigt.
 Flexible Konfiguration der Ansicht und der Verwaltung.
 (Nur Linux Versionen) Stichproben können separat für Inline Funktionen oder für die Elternfunktionen gesammelt werden.
+
+
+4. Cppcheck
+is a static analysis tool for C/C++ code. It provides unique code analysis to detect bugs and focuses on detecting undefined
+behaviour and dangerous coding constructs. The goal is to detect only real errors in the code (i.e. have very few false positives).
+#Features
+> Unique code analysis that detect various kinds of bugs in your code.
+> Both command line interface and graphical user interface are available.
+> Cppcheck has a strong focus on detecting undefined behaviour.
+
