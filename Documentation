@@ -11,5 +11,8 @@
 #how to use ? 
 Each Function which suppos to be analysed, has to start a makro PROFILE_FUNC() 
 The results can be observed with PROFILE_OUTPUT() function
+> Ein offensichtlicher Nachteil von Shiny ist der Umstand das der Profiler einen Eingriff in den Quellcode erfordert,
+> d.h. eine manuelle Instrumentierung durch Erweiterung des Quelltextes durch Befehle stattfindet. Allerdings lassen sich 
+> die Daten auf diese Weise auch direkt programmtechnisch auswerten und Funktionen können ganz selektiv analysiert werden.
 
 
