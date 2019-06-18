@@ -7,6 +7,9 @@
 2. Shiny
 > Free to use <br/>
 > For C/C++ <br/>
-> Open Source 
+> Open Source <br/> 
+#how to use ? <br/> 
+Each Function which suppos to be analysed, has to start a makro PROFILE_FUNC() <br/>
+The results can be observed with PROFILE_OUTPUT() function
 
 
