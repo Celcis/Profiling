@@ -29,5 +29,11 @@ Very Sleepy is also free to use for C/C++ which based on Sleepy Project.
  Es wird vielmehr in einem bestimmten zeitlichen Zyklus die Laufzeit gemessen. Dieses Verfahren nennt man auch Sampling.
  Mit dem Profiler Very Sleepy können Sie Laufzeitanalysen abspeichern und jederzeit mit anderen Stichproben vergleichen.
  Die Wirkung einer Optimierung lässt sich auf diese Weise einfach überprüfen.
+ 
+ 
+ 3. AMD CodeAnalyst Performance
+ Free to use from AMD. Especially for AMD processors but with minimal limitation could be used for Intel CPUs as well.
+ Integreted with VS 2008/2010.
+ CodeAnalyst is  available for Windows and Linux
 
 
