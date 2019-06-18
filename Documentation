@@ -26,4 +26,6 @@ Shiny can be download from https://sourceforge.net/projects/shinyprofiler/
 Very Sleepy is also free to use for C/C++ which based on Sleepy Project.
 > Sleepy is able to analyse multi-threads application
 
+ Es wird vielmehr in einem bestimmten zeitlichen Zyklus die Laufzeit gemessen. Dieses Verfahren nennt man auch Sampling.
+
 
