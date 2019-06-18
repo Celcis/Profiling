@@ -8,6 +8,12 @@
 >  Open Source free to use 
 > For C/C++ 
 >
+> Sehr wenig Overhead, sehr leistungsfähig und akkurat bei der Laufzeitanalyse.
+> Unglaublich einfach in der Handhabung und gute Dokumentation des Quellcodes.
+> Resultate werden in einem Aufrufbaum dargestellt und nach der Laufzeit sortiert.
+> „On-the-fly“ Glättung der Mittelwerte für wissenschaftliche und Main-Loop orientierte Programme, wie z.B. Spiele.
+> Gerenderte Graphen und farbig dargestellte Ausgaben in Ogre3D und anderen Grafikengines.
+> Plattformunabhängiger, objektorientierter und frei verwendbarer Quellcode.
 #how to use ? 
 Each Function which suppos to be analysed, has to start a makro PROFILE_FUNC() 
 The results can be observed with PROFILE_OUTPUT() function
