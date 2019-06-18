@@ -27,5 +27,7 @@ Very Sleepy is also free to use for C/C++ which based on Sleepy Project.
 > Sleepy is able to analyse multi-threads application
 
  Es wird vielmehr in einem bestimmten zeitlichen Zyklus die Laufzeit gemessen. Dieses Verfahren nennt man auch Sampling.
+ Mit dem Profiler Very Sleepy können Sie Laufzeitanalysen abspeichern und jederzeit mit anderen Stichproben vergleichen.
+ Die Wirkung einer Optimierung lässt sich auf diese Weise einfach überprüfen.
 
 
