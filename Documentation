@@ -31,7 +31,7 @@ Very Sleepy is also free to use for C/C++ which based on Sleepy Project.
  Die Wirkung einer Optimierung lässt sich auf diese Weise einfach überprüfen.
  
  
- 3. AMD CodeAnalyst Performance
+ 3. AMD CodeAnalyst Performance (nowaydays CodeXL)
  Free to use from AMD. Especially for AMD processors but with minimal limitation could be used for Intel CPUs as well.
  Integreted with Visual Studio.
  CodeAnalyst is  available for Windows and Linux
@@ -56,5 +56,3 @@ Post Process: CodeAnalyst zeigt die Verteilung von Stichproben ohne Debuginforma
 Die Laufzeitdaten werden interpretiert und nicht einfach als Rohdaten angezeigt.
 Flexible Konfiguration der Ansicht und der Verwaltung.
 (Nur Linux Versionen) Stichproben können separat für Inline Funktionen oder für die Elternfunktionen gesammelt werden.
-
-4. CodeXL
