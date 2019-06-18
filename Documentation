@@ -33,7 +33,27 @@ Very Sleepy is also free to use for C/C++ which based on Sleepy Project.
  
  3. AMD CodeAnalyst Performance
  Free to use from AMD. Especially for AMD processors but with minimal limitation could be used for Intel CPUs as well.
- Integreted with VS 2008/2010.
+ Integreted with Visual Studio.
  CodeAnalyst is  available for Windows and Linux
+Systemweites Profiling: CodeAnalyst wurde entworfen, um die Performance von Binärmodulen zu analysieren, inklusive User-Mode Applikationsmodulen und Kernel-Mode Treibermodulen. Timer-basiertes Profiling, Ereignis-basiertes Profiling und auf Instruktionen-basiertes Sampling sammeln Daten von allen aktiven Prozessoren in einem Multiprozessorsystem.
 
+Timer-basiertes Profiling (TBP):
+Die zu optimierende Applikation läuft auf höchster Geschwindigkeit auf einem System, auf dem auch CodeAnalyst läuft. Es werden Stichproben vom EIP in festdefinierten Intervallen gesammelt, um wahrscheinliche Engpässe oder Optimierungsmöglichkeiten zu identifizieren.
+Die feinste Auflösung beträgt 0.1 ms.
+
+Ereignis-basiertes Profiling (EBP): CodeAnalyst EBP wurde entworfen, um Hardwareereignisse auf dem AMD Athlon™, AMD Athlon™ XP, AMD Opteron™, AMD Athlon™ 64, AMD Family 10h und AMD Family 11h zu analysieren. Mit der Ereignis-Multiplexing Technik, ist CodeAnalyst EBP in der Lage bis zu 32 verschiedene Hardwareereignisse, während einer einzigen Stichprobe zu messen.
+
+Instruktionen-basiertes Sampling (IBS): Instruktionen-basiertes Sampling ist eine neue Messtechnik für die Performance einer Anwendung, unterstützt von allen AMD Barcelona (Family 10h) Prozessoren. IBS hat die folgenden Vorteile:
+IBS verbindet präzise Hardwareereignisse mit den Instruktionen, die die Ereignisse ausgelöst haben. Ein fehlgeschlagener Zugriff auf einen Datencache wird beispielsweise mit der AMD64 Instruktion verknüpft, die für den gescheiterten Speicherschreib- und lesezugriff verantwortlich war.
+IBS sammelt eine große Bandbreite an Hardwareereignissen in einem einzigen Messzyklus.
+IBS sammelt neue Informationen, wie die Latenzzeit für fehlgeschlagene Speicherzugriffe.
+
+Call Stack Sampling (CSS): Durch die Kombination von TBP, EBP oder IBS kann das Call Stack Sampling Daten an Hot Spots über die Aufrufer-Gerufener-Beziehung sammeln.
+
+Thread Profiling (nur Windows Versionen): CodeAnalyst's Thread Profiling Ansichten zeigen ein Threaddiagramm und nicht-lokale Speicherzugriffe.
+
+Post Process: CodeAnalyst zeigt die Verteilung von Stichproben ohne Debuginformationen an.
+Die Laufzeitdaten werden interpretiert und nicht einfach als Rohdaten angezeigt.
+Flexible Konfiguration der Ansicht und der Verwaltung.
+(Nur Linux Versionen) Stichproben können separat für Inline Funktionen oder für die Elternfunktionen gesammelt werden.
 
