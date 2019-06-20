@@ -66,3 +66,19 @@ behaviour and dangerous coding constructs. The goal is to detect only real error
 > Both command line interface and graphical user interface are available.
 > Cppcheck has a strong focus on detecting undefined behaviour.
 
+5. LTTng
+Shows interaction between multiple components of given system
+> Linux Kernel
+> C/C++ Application
+> Java Application
+> Python Apps etc.
+Support following architecture
+> IA-32 (x86), x86-64, PowerPC, ARM, and MIPS, amongst others.
+
+Depends on Different scenario,
+
+> Trace locally
+> Trace remotely
+> View a live stream 
+> Take a snapshot
+
