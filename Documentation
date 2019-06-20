@@ -1,4 +1,10 @@
 #TOOLS
+Profiling 
+The thorough investigation of software performance issues, a history of execution is essential, 
+with the recorded values of variables and context fields you choose,
+and with as little influence as possible on the instrumented software. This is where tracing comes in handy.
+
+Tracing is a technique used to understand what goes on in a running software system.
 1. VTune 
 > Intel VTune Performance Anaylzer 
 > It's for x86 and x64 architecture  
