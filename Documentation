@@ -77,8 +77,9 @@ Support following architecture
 
 Depends on Different scenario,
 
-> Trace locally
+> Trace locally: Record a trace to the target's local filesystem, then use one of the many compatible viewers to
+investigate what happened.
 > Trace remotely
-> View a live stream 
-> Take a snapshot
+> View a live stream Monitor events as they occur, in real-time. 
+> Take a snapshot keep only a fixed-sized log of the latest events.
 
