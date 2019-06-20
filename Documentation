@@ -4,7 +4,10 @@ The thorough investigation of software performance issues, a history of executio
 with the recorded values of variables and context fields you choose,
 and with as little influence as possible on the instrumented software. This is where tracing comes in handy.
 
-Tracing is a technique used to understand what goes on in a running software system.
+Tracing is a technique used to understand what goes on in a running software system. It is conceptually similar to a tape recorder.
+Events will be saved a trace file. 
+Logging is actuallay part of tracing. 
+
 1. VTune 
 > Intel VTune Performance Anaylzer 
 > It's for x86 and x64 architecture  
@@ -80,6 +83,10 @@ Shows interaction between multiple components of given system
 > Python Apps etc.
 Support following architecture
 > IA-32 (x86), x86-64, PowerPC, ARM, and MIPS, amongst others.
+LTTng is set of software component
+LTTng-tools : Libraries and command line interface to control tracing
+LTTng-moduls: Linux kernel modules to instrument and trace the kernel
+LTTng-UST :Libs and java/Python packages to instrument and trace user applications
 
 Depends on Different scenario,
 
