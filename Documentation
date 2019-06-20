@@ -116,5 +116,7 @@ Save a snapshot (selected area) of profiled data from file
 Add bookmarks at any place on the timeline
 Configurable timer type with CMakeLists or preprocessor macros
 
-
+8. Perf
+Perf is a linux command which used for performance analysing also called profiling tool.
+Perf_events is an event-oriented observability tool, which can help you solve advanced performance and troubleshooting functions.
 
