@@ -96,3 +96,9 @@ investigate what happened.
 > View a live stream Monitor events as they occur, in real-time. 
 > Take a snapshot keep only a fixed-sized log of the latest events.
 
+6. gperftools (Google Performance tools)
+gperftools is a collection of a high-performance multi-threaded
+malloc() implementation, plus some pretty nifty performance analysis
+tools.
+In order to use to call all heap leaks, tcmalloc must be linked *last* into your executable.
+
