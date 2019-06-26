@@ -1,0 +1,25 @@
+Fast and efficient logging:
+- Generate events at specific locations in the code
+- Extract parameters for later analysis
+- Application specific or system wide
+LTTng Advantages
+Fast kernel tracing
+Fast user-space tracing 
+Native support for C/C++ applications, agent for Java and Python
+Multi-arch
+Ability to merge kernel and user-space traces
+Standart trace format(Common Trace Format)
+Packed by the major distributions
+
+Disk and Streaming Modes
+$ lttng create #for streaming -U net
+$ lttng enable-event -k -a # All kernel event
+$ lttng enable-event -u -a #All user-space event
+
+$ lttng stop/viewe/destroy
+
+
+Common profiling tolls on Linux
+  - perf
+  - oprofile
+  - gprof
