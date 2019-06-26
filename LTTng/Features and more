@@ -25,3 +25,15 @@ Common profiling tolls on Linux
   - perf
   - oprofile
   - gprof
+Trace Analysis
+1. babeltrace
+- Text based CTF viewer
+- Default viewer for lttng view command
+
+2. TraceCompass
+-Most detailied and feature rich viewer
+- Eclipse IDE integration or RCP app
+- Live and remote trace views
+-Control flow view, histograms, event list, trace statistics CPU/resource allocation
+- Mix kernel and userspace trace analysis
+Trace and Monitoring Framework(TMF in Eclipse)
