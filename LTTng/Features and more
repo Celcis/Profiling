@@ -10,6 +10,7 @@ Multi-arch
 Ability to merge kernel and user-space traces
 Standart trace format(Common Trace Format)
 Packed by the major distributions
+Time-based or size-based auto-routatuin available
 
 Disk and Streaming Modes
 $ lttng create #for streaming -U net
