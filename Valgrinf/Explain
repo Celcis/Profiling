@@ -1,0 +1,10 @@
+Mostly used on Linux
+Runtime memory-error detection of binary without any change from source code etc.
+When you have source code, valgrind enable profiling
+
+$ valgrind ./file.o
+
+GUI 
+can be called 
+$ valgrind --tool=callgrind ./fileExecutable
+$ kcachegrind callgrind.out.34324 # für gui
