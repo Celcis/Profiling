@@ -8,3 +8,4 @@ GUI
 can be called 
 $ valgrind --tool=callgrind ./fileExecutable
 $ kcachegrind callgrind.out.34324 # für gui
+$ memcheck
