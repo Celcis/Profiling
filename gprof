@@ -1,3 +1,14 @@
 1. Be sure the application is compiling without any warning
 2. compile code with -pg again
   $ g++ -pg executable 
+  
+3. Lets visualize the result
+
+The easiest way is to install from the Python Package Index (PyPI):
+$ sudo pip install gprof2dot
+
+4. Then
+$ gprof foo | gprof2dot > foo.dot
+
+5. Export as png image
+$ dot foo.dot -Tpng -o foo.png
