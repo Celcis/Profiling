@@ -20,6 +20,11 @@ $ lttng enable-event -u -a #All user-space event
 
 $ lttng stop/viewe/destroy
 
+Viewers
+babeltrace
+lttngtop
+Eclipse lttng plugin
+
 
 Common profiling tolls on Linux
   - perf
@@ -37,3 +42,27 @@ Trace Analysis
 -Control flow view, histograms, event list, trace statistics CPU/resource allocation
 - Mix kernel and userspace trace analysis
 Trace and Monitoring Framework(TMF in Eclipse)
+
+Lttng-UST How does it work
+Users instrument their applications with static trace points
+liblttng-ust, in process library, dynamically linked with application
+session setup, etc
+Run app, collect traces
+Post analysis with viewers
+===========================================================
+$ lttng create // session setup
+$ lttng enable-event -u -a  //User-space event enabling
+$ lttng start    // start tracing
+============================0000000
+Tracing session example 
+$ lttng create
+$ lttng enable-event -u subsys1_*
+$ lttng enable-event -u subsys42
+$ lttng start
+get(coffee);
+$ lttng stop 
+$ lttng view
+
+
+
+
