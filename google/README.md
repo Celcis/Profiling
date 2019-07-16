@@ -10,14 +10,14 @@ following command
 3. perf stat is really usefull
 But not telling us where is the bottleneck#
 
-3.1. perf record ./bench
-3.2 perf report 
+4. perf record ./bench
+5. perf report 
 
 But we need call graph
 
-3.3 perf record -g ./executable
+6. perf record -g ./executable
 
-3.4. perf report -g (-g interrupting the program then looked current stack position)
+7.  perf report -g (-g interrupting the program then looked current stack position)
 After then could go into deep of code 
 
 -fno-omit-frame-pointer flags telling the compiler stop deleting frame pointer (add while compiling)
