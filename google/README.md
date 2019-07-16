@@ -5,7 +5,7 @@
 $ perf stat ./bench
 #ISSUE: runnig perf tool in docker container ain't usual then has to be allowed
 following command
-#### docker run -it --mount type=tmpfs,tmpfs-size=512M,destination=/app/ alpy
+$ docker run -it --mount type=tmpfs,tmpfs-size=512M,destination=/app/ alpy
 
 3. perf stat is really usefull
 But not telling us where is the bottleneck#
