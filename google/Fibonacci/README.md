@@ -1,4 +1,4 @@
-# Following instruction shows usage of gbenchmark and perf tool for a c++ application
+## Following instruction shows usage of gbenchmark and perf tool for a c++ application
 ### Steps
 0. Compiling our program
 
@@ -11,9 +11,9 @@
 #### $ perf stat ./bench #ISSUE: runnig perf tool in docker container ain't usual then has to be allowed following command 
 perf stat is really usefull But not telling us where is the bottleneck
 
-2.`perf stat ./bench`
+2. `perf stat ./bench`
 
-3.`perf record -g ./bench`
+3. `perf record -g ./bench`
 
 4. `perf report -g`
 
