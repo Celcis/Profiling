@@ -1,4 +1,4 @@
-# Following instruction shows usage of perf tool for a c++ application
+# Following instruction shows usage of gbenchmark and perf tool for a c++ application
 ### Steps
 0. Compiling our program
 
